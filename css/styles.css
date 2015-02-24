@@ -1,0 +1,28 @@
+/* Website: Children's books v.1
+Author: Natasha Madov */
+/* color palette at 
+http://www.colourlovers.com/palette/1150705/tattooed_mistress but link color is 506E67 and background color is F2E7E3*/
+h1{
+    color: #B52725;
+    font-family: Futura; 
+	font-size: 72px;
+	padding: 5px;
+	}
+h2{
+    color: #150303;
+    font-family: Futura, Helvetica, sans-serif; 
+	font-size: 36px;
+	}
+body {
+	background-color: #F2E7E3;
+}
+p {
+	font-family: Cambria, Georgia, serif;
+	color: #150303;
+	font-weight: light;
+}
+a {
+	color:#506E67;
+	font-weight: bolder;
+}
+

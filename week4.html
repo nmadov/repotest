@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 4 - Positioning</title>
+  <style>
+  #boxes {
+    width: 800px;
+    height: 600px;
+    top:100px;
+    left:50px;
+  }
+  .box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    float: right;
+    
+   
+  }
+  #red {
+    background-color: red;
+    z-index:105;
+  }
+  #green {
+    background-color: green;
+
+  }
+  #blue {
+    background-color: blue;
+    z-index:101;
+  }
+  </style>
+</head>
+<body>
+  <div id="position">
+    <h1>How to Position</h1>
+    <div id="boxes">
+    <div class="box" id="red"> </div>
+    <div class="box" id="green"> </div>
+    <div class="box" id="blue"> </div>
+  </div>
+  </div>
+</body>
+</html>
