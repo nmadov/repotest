@@ -9,14 +9,20 @@ http://www.colourlovers.com/palette/1150705/tattooed_mistress but link color is 
 	text-align: center;
 	position:relative;
 }
+#header h1 { 
+	width:800px;
+	 }
 
 h1{
     color: #B52725;
-    font-family: Futura; 
+  font-family: Futura, Helvetica, sans-serif; 
 	font-size: 68px;
 	padding: 5px;
 	position: absolute;
 	bottom:0;
+	text-align: left;
+	left: 30px;
+
 	}
 h2{
     color: #150303;
@@ -41,31 +47,57 @@ a {
 
 #deck {}
 
-#byline {}
+#byline {
+	font-family: Futura, Helvetica, sans-serif;
+	font-style: italic;
+ }
 
-.story {}
-
-.photo {
-	width:50%;
-	height:360px;
-	background-color: #368498;
-	float:right;
-	margin: 10px;
-	padding: 10px;
+.story p { 
+	font-family: Cambria, Georgia, serif;
+	font-size: 22px;
+	color: #150303;
+	font-weight: light;
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
 
 
 }
+.story a {
+	color:#506E67;
+	font-weight: bolder
+}
 
+.story a:link {
+    text-decoration: none;
+}
+
+
+.photo {
+	width:45%;
+	height:484px;
+	background-color: #368498;
+	float:right;
+	margin: 15px;
+	padding: 10px;
+	margin-bottom: 34px;
+
+
+
+}
+#boxfloat {
+	float: left;
+	margin-left: 112px;
+}
 #audio {
-	font-family: Futura
+	font-family: Futura, Helvetica, sans-serif; 
     font-style: italic;
 	font-size: 36px;
 	width:96%;
 	height:120px;
-	background-color: #368498;
 	margin: 10px;
 	padding: 10px;
-	margin-bottom: 20px}
+	margin-bottom: 20px;}
 
 .chart {
 	float:left;
@@ -88,7 +120,7 @@ a {
 
 #gallery {
 	width:92%;
-	height:480px;
+	height:720px;
 	background-color: #368498;
 	margin: 20px;
 	padding: 10px;
