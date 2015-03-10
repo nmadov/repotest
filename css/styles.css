@@ -86,11 +86,11 @@ a {
 
 
 }
-#boxfloat {
+/*#boxfloat {
 	float: left;
 	margin-left: 112px;
 }
-#audio {
+*/#audio {
 	font-family: Futura, Helvetica, sans-serif; 
     font-style: italic;
 	font-size: 36px;
