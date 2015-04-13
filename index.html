@@ -32,7 +32,7 @@
 
 <p>"It just depleted our resources. Basically, we were one bad month away from losing it all. And I realized you don't wait until you are on the verge of closing to ask for help, you ask for help when you see it on the horizon. It wasn't as we were going to close the next day, but we had no cushion left," he says.</p></div>
 <p><strong>Listen to Peter Glassman describe how he founded Books of Wonder:</strong></p>
-	<div id="audio"><iframe width="96%" height="120px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/595247&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></iframe></div>
+	<div id="audio"><iframe width="96%" height="120px" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/595247&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></div>
 <div class="chart">Chart</div>
 <p>So Glassman launched in the fall of 2012 a crowdfunding campaign that raised $100,000. At the same time, he found a new subtenant for the space. That way, the crisis was averted.</p>
 
@@ -54,8 +54,6 @@ That is exactly the case of Books of Wonder, Glassman says. "In the mid-'90s, we
   <div><img src="images/carousel/image4.jpg" /></div>
   <div><img src="images/carousel/image5.jpg" /></div>
 </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="slick/slick.min.js"></script>
   
 <p>Books are also a big part of the Pieta household. Two full bookcases go all the way to the ceiling of the living room and the girls' bedroom has shelves full of books, as well as two tiny armchairs where they sit to browse through picture books in English and Portuguese.</p>   
 
@@ -74,6 +72,7 @@ That is exactly the case of Books of Wonder, Glassman says. "In the mid-'90s, we
 </p></div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="slick/slick.min.js"></script>
   <script>
   $(document).ready(function(){
     $("#text").scroll(function(){
@@ -86,12 +85,12 @@ That is exactly the case of Books of Wonder, Glassman says. "In the mid-'90s, we
 <script>
     //your code here
     $(document).ready(function(){
-  $('.photocarousel').slick({
+  $('#gallery').slick({
   	autoplay: true,
   	autoplaySpeed: 1000,
   });
 
-  $('.photocarousel').on('swipe',function(ev,slick,direction){
+  $('#gallery').on('swipe',function(ev,slick,direction){
   	console.log(direction);
   });
 });

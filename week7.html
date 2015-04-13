@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 7 - Arrays, Objects and Loops</title>
+  <style> #list {
+  	font-family: Futura;
+  }
+  #headline{
+  	font-family: Futura;
+  }
+  </style>
+</head>
+<body>
+  <h1 id="headline">Storing Data in JavaScript</h1>
+  <ul id="list"></ul>
+  <script>
+ 
+  	var books = ['The Thorn Birds', 'The Schock Doctrine', 'Night of the Gun', 'Eleanor and Park'];
+
+  	for(var i = 0; i < books.length; i++){
+  		console.log(books[i]);
+  		var item = document.createElement('li');
+  		var book = document.createTextNode(books[i]);
+  		item.appendChild(book);
+  		var container = document.getElementById('list');
+  		container.appendChild(item);
+  	}
+
+  	document.getElementById('headline').innerHTML = 'My Favorite Books';
+  	
+
+  	var favoriteBook = [{
+  		title: 'The Thorn Birds',
+  		author: 'Coleen McCullough',
+  		pubYear: '1977',
+  		buyLink: 'http://amazon.com',
+  		},
+  		{
+		title: 'Night of the Gun',
+  		author: 'David Carr',
+  		pubYear: '2008',
+  		buyLink: 'http://amazon.com',
+  		}]
+
+  	console.log(favoriteBook)
+  	console.log (favoriteBook[1].pubYear)
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("img").attr("height", "300");
+    });
+});
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("img").attr("width", "250");
+    });
+});
+</script>
+</head>
+<body>
+
+<img src="https://placekitten.com/500/600" alt="Placekitten" width="500" height="600"><br>
+
+<button>Resize the image</button>
+
+
+
+</body>
+</html>
